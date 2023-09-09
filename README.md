@@ -1,2 +1,2 @@
-# Jenkins-ArgoCD-Web-Deployment-Demos
-Jenkins ArgoCD assignment
+Hi,
+This is where all my Python beginner projects go.
