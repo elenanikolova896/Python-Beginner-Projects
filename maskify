@@ -1,0 +1,12 @@
+# return masked string
+
+def maskify(password):
+    if len(password) >= 4:
+        result = '#' * (len(password) - 4) + password[-4:]
+        return result
+    else:
+        return password
+
+user_password = str(input("Please choose a password"))
+result = maskify(user_password)
+print(result)
